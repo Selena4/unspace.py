@@ -13,7 +13,8 @@ def check(a):
 alphabet = []
 for _ in range(97,123):
 	alphabet.append(chr(_))
-
+alphabet.append("{")
+alphabet.append("}")j
 text = open(sys.argv[1],'r')
 array = text.readlines()
 new_array = []
